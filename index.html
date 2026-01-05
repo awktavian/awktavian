@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Jacoby | awktavian</title>
+    <style>
+        :root {
+            --void: #0A0A0F;
+            --obsidian: #1A1A24;
+            --crystal: #7E57C2;
+            --text: #F8F8F2;
+            --text-dim: #A0A0B0;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+            background: var(--void);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+        
+        .logo {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .handle {
+            font-size: 1.2rem;
+            color: var(--crystal);
+            margin-bottom: 2rem;
+        }
+        
+        .bio {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-bottom: 3rem;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border: 1px solid rgba(126, 87, 194, 0.3);
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        
+        .links a:hover {
+            background: rgba(126, 87, 194, 0.1);
+            border-color: var(--crystal);
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            position: fixed;
+            bottom: 2rem;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">鏡</div>
+        <h1>Tim Jacoby</h1>
+        <div class="handle">@awktavian</div>
+        <p class="bio">
+            Building Kagami — an AI assistant for the home.<br>
+            Seattle. Software. Synthesis.
+        </p>
+        <div class="links">
+            <a href="https://github.com/awktavian">GitHub</a>
+            <a href="https://twitter.com/awktavian">Twitter</a>
+            <a href="https://www.linkedin.com/in/timjacoby">LinkedIn</a>
+        </div>
+    </div>
+    <footer>h(x) ≥ 0</footer>
+</body>
+</html>
